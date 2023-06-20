@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iheuzio Site</title>
-    <link rel="stylesheet" href="css/App.css">
+    <script>
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            document.write('<link rel="stylesheet" href="css/MobileApp.css">');
+        }
+        else {
+            document.write('<link rel="stylesheet" href="css/App.css">');
+        }
+    </script>
     <script src="js/App.js"></script>
 </head>
 <body>

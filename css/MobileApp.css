@@ -1,0 +1,133 @@
+#element {
+    display: flex;
+    align-items: center;
+}
+
+#element img {
+    height: 3vw;
+    width: 3vw;
+    margin-right: 1vw;
+}
+
+#element::before {
+    margin-right: 1vw;
+}
+
+#connections_nav {
+    bottom: 0;
+    display: flex;
+    margin: 0;
+    padding: 1vw;
+    list-style: none;
+    width: 100%;
+    z-index: 1;
+}
+
+#connections_nav > li {
+    margin: 0 2vw;
+    padding: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+#nav_link {
+    text-decoration: none;
+    color: white;
+}
+
+#element {
+    margin: 0 1vw;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+}
+
+#connections_nav > li:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid > * {
+    flex: 1 1 50%;
+    padding: 2vw;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    max-width: 75%;
+}
+
+h1 {
+    font-size: 4vw;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 2.6vw;
+    font-weight: bold;
+    padding: 0;
+}
+
+.project_list > li {
+    background-color: #202020;
+    width: 85%;
+    padding: 2vw;
+    margin: 2vw;
+    list-style: none;
+    opacity: 0.85;
+    transition: transform 0.2s ease-in-out;
+    filter: blur(0.2px);
+    border-radius: 10px;
+}
+
+.project_list > li:hover {
+    background-color: #191E29;
+    transform: scale(1.01);
+    opacity: 1;
+    filter: grayscale(0%);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 2vw;
+}
+
+#info > div {
+    margin-right: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+#info svg {
+    margin-right: 1vw;
+    height: 2vw;
+    width: 2vw;
+}
+
+#info span {
+    font-size: 1vw;
+}
