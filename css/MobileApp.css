@@ -5,6 +5,7 @@ html, body {
     color: #ccc;
     font-family: 'Roboto', sans-serif;
     font-size: 2.5vw;
+    min-height: 100%;
 }
 
 #element {
@@ -84,7 +85,6 @@ h2 {
 
 .project_list > li {
     background-color: #202020;
-    width: 85%;
     padding: 4vw;
     margin: 2vw;
     list-style: none;
