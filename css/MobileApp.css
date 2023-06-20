@@ -1,11 +1,22 @@
+html, body {
+    margin: 0.5vw;
+    padding: 0.5vw;
+    background-color: black;
+    color: #ccc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5vw;
+}
+
 #element {
     display: flex;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 #element img {
-    height: 3vw;
-    width: 3vw;
+    height: 5vw;
+    width: 5vw;
     margin-right: 1vw;
 }
 
@@ -26,29 +37,18 @@
 #connections_nav > li {
     margin: 0 2vw;
     padding: 0;
-    transition: transform 0.3s ease-in-out;
+    justify-content: center;
 }
 
 #nav_link {
     text-decoration: none;
     color: white;
+    display: block;
 }
 
 #element {
-    margin: 0 1vw;
+    margin: 0;
     padding: 0;
-}
-
-body {
-    background-color: black;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5vw;
-}
-
-#connections_nav > li:hover {
-    transform: scale(1.1);
-    font-weight: bold;
 }
 
 .grid {
@@ -59,7 +59,7 @@ body {
 }
 
 .grid > * {
-    flex: 1 1 50%;
+    flex: 1 1 100%;
     padding: 2vw;
 }
 
@@ -67,18 +67,17 @@ body {
     display: flex;
     flex-direction: column;
     padding: 2vw;
-    max-width: 75%;
 }
 
 h1 {
-    font-size: 4vw;
+    font-size: 6vw;
     font-weight: bold;
     margin: 0;
     padding: 0;
 }
 
 h2 {
-    font-size: 2.6vw;
+    font-size: 3.5vw;
     font-weight: bold;
     padding: 0;
 }
@@ -86,25 +85,16 @@ h2 {
 .project_list > li {
     background-color: #202020;
     width: 85%;
-    padding: 2vw;
+    padding: 4vw;
     margin: 2vw;
     list-style: none;
     opacity: 0.85;
-    transition: transform 0.2s ease-in-out;
-    filter: blur(0.2px);
     border-radius: 10px;
-}
-
-.project_list > li:hover {
-    background-color: #191E29;
-    transform: scale(1.01);
-    opacity: 1;
-    filter: grayscale(0%);
 }
 
 img {
     width: 100%;
-    height: auto;
+    height: 50vw;
 }
 
 #info {
