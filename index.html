@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iheuzio Site</title>
+    <link rel="stylesheet" href="css/App.css">
+    <script src="js/App.js"></script>
+</head>
+<body>
+    <section class="grid">
+        <div>
+            <section class="introduction">
+                <h1>
+                    Christopher Bartos
+                </h1>
+                <h2>
+                    Computer Science Student at Dawson College.
+                </h2>
+                <p>
+                    I am interested in working with data, economics, and finance.
+                    <br />
+                    <br />
+                    I am currently learning about data science and machine learning.
+                    <br />
+                    <br />
+                    My alias online is Iheuzio. Discord is the best way to contact me. <b>@iheuzio</b>
+                </p>
+            <footer>
+                <div>
+                    <section class="connections">
+                        <ul id="connections_nav">
+                            <li>
+                                <a href="https://github.com/Iheuzio" target="_blank" rel="noopener noreferrer" id="nav_link">
+                                    <div id="element">
+                                        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" />
+                                        <p>Github</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/christopher-bartos-92b8a8273/" target="_blank" rel="noopener noreferrer" id="nav_link">
+                                    <div id="element">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" alt="LinkedIn" />
+                                        <p>LinkedIn</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.kaggle.com/christopherbartos/" target="_blank" rel="noopener noreferrer" id="nav_link">
+                                    <div id="element">
+                                        <img src="https://www.kaggle.com/static/images/favicon.ico" alt="Kaggle" />
+                                        <p>Kaggle</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://gitlab.com/Christopher-" target="_blank" rel="noopener noreferrer" id="nav_link">
+                                    <div id="element">
+                                        <img src="https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png" alt="GitLab" />
+                                        <p>GitLab</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </footer>
+            </section>
+        </div>
+        <div>
+            <section class="projects">
+                <ul class="project_list">
+                    <li>
+                        <a href="https://github.com/Iheuzio/TickerPricePrediction" target="_blank" rel="noopener noreferrer" id="nav_link">
+                            <h3 id="projects_title">Python</h3>
+                            <h4 id="projects_subtitle">TickerPricePredictor</h4>
+                            <p id="projects_description">A program that uses yfinance and neural networks to predict the price of a stock.</p>
+                            <img src="https://user-images.githubusercontent.com/97270760/246673242-e994f0d6-65f4-4add-bdcb-c35b18feae82.png" alt="TickerPricePredictor" />
+                            <div id="info">
+                                <div>
+                                    <svg viewBox="0 0 16 16" version="1.1" width="20" height="20" aria-hidden="true">
+                                        <path fillRule="evenodd" fill="#586069" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
+                                    </svg>
+                                
+                                    <span id="stars"></span>
+                                    <script>
+                                        const stars = localStorage.getItem("stars");
+                                        document.getElementById("stars").innerHTML = stars;
+                                    </script>
+                                </div>
+                                <div>
+                                    <svg viewBox="0 0 16 16" version="1.1" width="20" height="20" aria-hidden="true">
+                                        <path fillRule="evenodd" fill="#586069" d="M8 2c1.981 0 3.671.992 4.933 2.078 1.27 1.091 2.187 2.345 2.637 3.023a1.62 1.62 0 0 1 0 1.798c-.45.678-1.367 1.932-2.637 3.023C11.67 13.008 9.981 14 8 14c-1.981 0-3.671-.992-4.933-2.078C1.797 10.83.88 9.576.43 8.898a1.62 1.62 0 0 1 0-1.798c.45-.677 1.367-1.931 2.637-3.022C4.33 2.992 6.019 2 8 2ZM1.679 7.932a.12.12 0 0 0 0 .136c.411.622 1.241 1.75 2.366 2.717C5.176 11.758 6.527 12.5 8 12.5c1.473 0 2.825-.742 3.955-1.715 1.124-.967 1.954-2.096 2.366-2.717a.12.12 0 0 0 0-.136c-.412-.621-1.242-1.75-2.366-2.717C10.824 4.242 9.473 3.5 8 3.5c-1.473 0-2.825.742-3.955 1.715-1.124.967-1.954 2.096-2.366 2.717ZM8 10a2 2 0 1 1-.001-3.999A2 2 0 0 1 8 10Z"></path>
+                                    </svg>
+                                    <span id="watchers"></span>
+                                    <script>
+                                        const watchers = localStorage.getItem("watchers");
+                                        document.getElementById("watchers").innerHTML = watchers;
+                                    </script>
+                                </div>
+                                <div>
+                                    <svg viewBox="0 0 16 16" version="1.1" width="20" height="20" aria-hidden="true">
+                                        <path fillRule="evenodd" fill="#586069" d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
+                                    </svg>
+                                    <span id="forks"></span>
+                                    <script>
+                                        const forks = localStorage.getItem("forks");
+                                        document.getElementById("forks").innerHTML = forks;
+                                    </script>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </section>
+</body>
+</html>
