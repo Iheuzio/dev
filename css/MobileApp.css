@@ -127,3 +127,16 @@ img {
 #info span {
     font-size: 1vw;
 }
+
+#description_link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;  
+    border: .25em solid white;
+    padding: 0.25em;
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
