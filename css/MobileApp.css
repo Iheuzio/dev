@@ -140,3 +140,12 @@ img {
     margin-bottom: 1em;
     text-align: center;
   }
+
+  img {
+    width: auto;
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
