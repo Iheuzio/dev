@@ -28,5 +28,4 @@ for(let i=0; i<count; i++){
             localStorage.setItem(`${repo[i]}_forks`, forks);
             localStorage.setItem(`${repo[i]}_watchers`, watchers);
         })        .catch(error => console.error(error));
-
 }
