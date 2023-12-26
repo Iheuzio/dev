@@ -8,20 +8,20 @@ html, body {
     min-height: 100%;
 }
 
-#element {
+.element {
     display: flex;
     align-items: center;
     margin: 0;
     padding: 0;
 }
 
-#element img {
+.element img {
     height: 5vw;
     width: 5vw;
     margin-right: 1vw;
 }
 
-#element::before {
+.element::before {
     margin-right: 1vw;
 }
 
@@ -41,13 +41,13 @@ html, body {
     justify-content: center;
 }
 
-#nav_link {
+.nav_link {
     text-decoration: none;
     color: white;
     display: block;
 }
 
-#element {
+.element {
     margin: 0;
     padding: 0;
 }
@@ -103,7 +103,7 @@ img {
     height: 50vw;
 }
 
-#info {
+.info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -112,23 +112,23 @@ img {
     margin-top: 2vw;
 }
 
-#info > div {
+.info > div {
     margin-right: 1vw;
     display: flex;
     align-items: center;
 }
 
-#info svg {
+.info svg {
     margin-right: 1vw;
     height: 2vw;
     width: 2vw;
 }
 
-#info span {
+.info span {
     font-size: 1vw;
 }
 
-#description_link{
+.description_link{
     text-decoration: none;
     color: white;
     font-weight: bold;  
