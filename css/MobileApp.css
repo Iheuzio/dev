@@ -4,7 +4,7 @@ html, body {
     background-color: black;
     color: #ccc;
     font-family: 'Roboto', sans-serif;
-    font-size: 2.5vw;
+    font-size: 4vw;
     min-height: 100%;
 }
 
@@ -67,7 +67,7 @@ html, body {
 .introduction {
     display: flex;
     flex-direction: column;
-    padding: 2vw;
+    padding: 3vw;
 }
 
 h1 {
@@ -84,12 +84,12 @@ h2 {
     margin:0;
 }
 
-.project_list {
+#project_list {
     padding-inline-start: 0px;
 }
 
 
-.project_list > li {
+#project_list > li {
     background-color: #202020;
     padding: 4vw;
     margin: 2vw;
@@ -120,12 +120,12 @@ img {
 
 .info svg {
     margin-right: 1vw;
-    height: 2vw;
-    width: 2vw;
+    filter: invert(1);
+    height: 4.5vw;
 }
 
 .info span {
-    font-size: 1vw;
+    font-weight: bold;
 }
 
 .description_link{
