@@ -14,7 +14,7 @@
 }
 
 #connections_nav {
-  position: fixed;
+  position: relative;
   bottom: 0;
   display: flex;
   margin: 0;
@@ -45,6 +45,7 @@ body {
   font-family: 'Roboto', sans-serif;
   overflow:hidden;
   margin: 0;
+  height:100vh;
 }
 
 #connections_nav > li:hover {
@@ -190,6 +191,11 @@ img {
     font-family: 'Roboto', sans-serif;
     font-size: 2.5vw;
     min-height: 100%;
+    
+  }
+  body {
+    overflow-y:scroll;
+    height:100%
   }
 
   .element {
@@ -241,7 +247,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-height: 100%;
   }
 
   .grid > * {
@@ -271,6 +276,7 @@ img {
 
   #project_list {
     padding-inline-start: 0px;
+    overflow-y: scroll;
   }
 
   #project_list > li {
